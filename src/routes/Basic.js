@@ -11,10 +11,15 @@ function Basic() {
     // 👇️ navigate to /home
     navigate('/about');
   };
+  const navigateToContact = () => {
+    // 👇️ navigate to /home
+    navigate('/contact');
+  };
   return (
     <div>
       <button onClick={navigateToHome}>Home Page</button>
       <button onClick={navigateToAbout}>About Page</button>
+      <button onClick={navigateToContact}>Contact page</button>
 
     </div>
   )
